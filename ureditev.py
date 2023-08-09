@@ -58,7 +58,11 @@ def dopolni(slovar_s_podatki):
     
     return slovar_s_podatki
 
+import os
+
+os.makedirs("data", exist_ok=True)
+
 def shrani_podatke(slovar_tabel):
     for ime, tabela in slovar_tabel.items():
         file_name = f"{ime}.csv"
-        tabela.to_csv(file_name)
+        tabela.to_csv("data/" + file_name)
