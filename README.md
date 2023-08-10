@@ -2,7 +2,7 @@
 
 Avtor: Marcel Blagotinšek
 
-Pri predmetu Uvod v programiranje sem pripravil projektno nalogo iz analize podatkov. V nalogi izberem delnice velikih ameriških podjetji, uvozim ter izluščim podatke, ki me zanimajo za nadaljno analizo, tabele shranim (datoteke ime_delnice.csv v mapi "data"), in na koncu predstavim rezultate z Jupyter Notebook. 
+Pri predmetu Uvod v programiranje sem pripravil projektno nalogo iz analize podatkov. V nalogi izberem delnice velikih ameriških podjetij, uvozim ter izluščim podatke, ki me zanimajo za nadaljno analizo, tabele shranim (datoteke ime_delnice.csv v mapi "data"), in na koncu predstavim rezultate z Jupyter Notebook. 
 
 Podatki o delnicah, ki jih potrebujem so dostopni na spletni strani [Yahoo Finance](https://finance.yahoo.com/). Programe za pridobitev, ureditev ter analizo podatkov napišem v ločene datoteke .py, v Jupyter Notebook-u pa kličem in poganjam funkcije iz teh datotek, da je vse skupaj bolj pregledno.
  
