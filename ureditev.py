@@ -60,9 +60,10 @@ def dopolni(slovar_s_podatki):
 
 import os
 
-os.makedirs("data", exist_ok=True)
+
 
 def shrani_podatke(slovar_tabel):
+    os.makedirs("data", exist_ok=True)
     for ime, tabela in slovar_tabel.items():
         file_name = f"{ime}.csv"
         tabela.to_csv("data/" + file_name)
